@@ -44,13 +44,24 @@
 # ########
 # Adım 1: Veri Setini Okutunuz ve Ürünün Ortalama Puanını Hesaplayınız.
 ###################################################
+import pandas as pd
+import math
+import scipy.stats as st
+from sklearn.preprocessing import MinMaxScaler
 
-
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 500)
+pd.set_option('display.float_format', lambda x: '%.5f' % x)
+df = pd.read_csv("amazon_review.csv")
+df.head()
+avg_rating = df["overall"].mean()
 ###################################################
 # Adım 2: Tarihe Göre Ağırlıklı Puan Ortalamasını Hesaplayınız.
 ###################################################
-
-
+df["reviewTime"] = pd.to_datetime(df["reviewTime"])
+df["reviewTime"].max()
+current_date = pd.to_datetime('2014-12-09 00:00:00')
+df["days"] = (current_date - df["reviewTime"]).dt.days
 
 
 ###################################################

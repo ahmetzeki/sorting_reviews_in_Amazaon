@@ -24,17 +24,17 @@ ratings and reviews of the electronic category's most reviewed product
 
 ### Variables:
 
-Index | Column          | Description |
---- |-----------------| --- | 
-1 | reviewerID      | User Id| 
-2 | asin            | Product Id | 
-3 | reviewerName    | User Name | 
-4 | helpful         | Useful Evaluation Degree | 
-5 | reviewText      | Evaluation |
-6 | overall         | Product Rating |
-7 | summary         | Evaluation Summary |
-8 | unixReviewTime  | Evaluation Time |
-9 | reviewTime      | Evaluation Time {RAW} |
-10 | days - day_diff | Number of days since assessment |
-11 | helpful_yes     | The number of times the evaluation was found useful |
-12 | total_vote      | Number of votes given to the evaluation |
+|Index | Column         | Description |
+--- |----------------| --- | 
+|1 | reviewerID     | User Id| 
+|2 | asin           | Product Id | 
+|3 | reviewerName   | User Name | 
+|4 | helpful        | Useful Evaluation Degree | 
+|5 | reviewText     | Evaluation |
+|6 | overall        | Product Rating |
+|7 | summary        | Evaluation Summary |
+|8 | unixReviewTime | Evaluation Time |
+|9 | reviewTime     | Evaluation Time {RAW} |
+|10 | day_diff       | Number of days since assessment |
+|11 | helpful_yes    | The number of times the evaluation was found useful |
+|12 | total_vote     | Number of votes given to the evaluation |
