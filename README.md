@@ -15,10 +15,14 @@ comments can have direct impact on product sales, leading to the loss of both cu
 and financial resources. As the e-commerce site and sellers tackle these two core challenges, 
 they can boost their sales while ensuring a smooth and hassle-free purchasing journey for customers
 
+### Aim of The Project:
+
+In this dataset, users comment and give points to the product. Our goal is to evaluate the reviews according to time-based
+weighted average and sort them correctly
 
 ### Story of Dataset
 
-This dataset contains categories and various metadatas of product in Amazon. It has the user 
+This dataset contains categories and various metadata of product in Amazon. It has the user 
 ratings and reviews of the electronic category's most reviewed product
 
 
@@ -38,3 +42,4 @@ ratings and reviews of the electronic category's most reviewed product
 |10 | day_diff       | Number of days since assessment |
 |11 | helpful_yes    | The number of times the evaluation was found useful |
 |12 | total_vote     | Number of votes given to the evaluation |
+
