@@ -1,7 +1,7 @@
 <h2 align="center">Sorting Reviews in Amazon</h3>
 <br>
 <br>
-<img algin="center" src="https://github.com/TarikKaanKoc/Rating.Product-and-Sorting.Reviews-in-Amazon/blob/main/image.jpeg"/>
+<img algin="center" src="https://github.com/ahmetzeki/sorting_reviews_in_Amazon/blob/master/image.jpg"/>
 <h3 align="center">Business Problem</h3>
 
 
